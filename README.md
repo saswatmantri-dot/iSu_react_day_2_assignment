@@ -1,18 +1,37 @@
-# React + Vite
+## Day 2 assignment
+This is project was built using Vite with Js and React compiler
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Layout
+Multiple small applications were made as per the assignment.
 
-Currently, two official plugins are available:
+## Folder Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project starts from the LoginApp.jsx file and global css isloaded from src/index.css
 
-## React Compiler
+1. src/components/commons - All the components are present here.
+2. The app starts from MyApp.jsx.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+```bash
+src/
+├── assets/                 # Static assets like images, fonts, and icons
+├── components/
+│   └── common/             # Reusable UI components
+│       ├── CounterApp.jsx  # Counter functionality logic
+│       ├── Dashboard.jsx   # Main dashboard layout/view
+│       ├── Focus.jsx       # Focus management or input handling
+│       ├── SearchBar.jsx   # Search input component
+│       ├── SecretMessage.jsx # Conditional rendering/message display
+│       └── ToDo.jsx        # To-do list logic and UI
+├── App.css                 # Global styles for the App component
+├── App.jsx                 # Root component / App entry point
+├── index.css               # Base styles (reset, typography)
+├── main.jsx                # Application mounting logic (Vite/React entry)
+├── MyApp.css               # Custom styles for MyApp
+└── MyApp.jsx               # Alternative or secondary root component
+```
 
-Note: This will impact Vite dev & build performances.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Broswer views
+![alt text](image.png)
+![alt text](image-1.png)
