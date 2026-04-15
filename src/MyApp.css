@@ -1,0 +1,19 @@
+div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.user-profile, 
+.counter-app, 
+.search-bar, 
+.secret-msg, 
+.to-do, 
+.focus {
+  border: 1px solid #000;
+  height: fit-content;
+  overflow: hidden; /* Prevents movement if internal content grows */
+}
