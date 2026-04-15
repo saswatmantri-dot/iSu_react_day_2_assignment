@@ -12,6 +12,8 @@ function MyApp() {
     <div>
 
     <Dashboard className = {"user-profile"} username={"Saswat"} age={"24"} />
+    <Dashboard className = {"user-profile"} username={"Saswat2"} age={"16"} isAdmin={false}/>
+    <Dashboard className = {"user-profile"} username={"Saswat3"} age={"70"} isAdmin={true} />
     <CounterApp className = {"counter-app"}/>
     <SearchBar className = {"search-bar"} />
     <SecretMessage className={"secret-msg"} />
